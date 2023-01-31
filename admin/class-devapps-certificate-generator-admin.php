@@ -81,7 +81,7 @@ class Devapps_Certificate_Generator_Admin
 			return;
 		}
 
-		wp_enqueue_script("bootstrap", plugin_dir_url(__FILE__) . "js/bootstrap-bundle.js", array(jquery), "4.6.2", false);
+		wp_enqueue_script("bootstrap", plugin_dir_url(__FILE__) . "js/bootstrap-bundle.js", array('jquery'), "4.6.2", false);
 		wp_enqueue_script($this->plugin_name, plugin_dir_url(__FILE__) . 'js/devapps-certificate-generator-admin.js', array('bootstrap'), time(), false);
 		wp_localize_script(
 			$this->plugin_name,
