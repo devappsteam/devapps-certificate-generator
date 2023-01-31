@@ -38,3 +38,11 @@ Depois de instalar e ativar o plugin, funciona em 4 passos
 * Informe o nome de seus participantes/alunos
 * Informe os dados da palestra/curso e aguarde a criação automática de todos os certificados
 * Pronto, agora você já pode fazer o download de todos os seus certificados
+
+= 1.0.0 =
+* Estrutura inicial
+* Correções nos modelos
+
+= 1.0.1 =
+* Correção do README.txt
+* Correção nos downloads
