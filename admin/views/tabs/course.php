@@ -34,8 +34,8 @@
     </div>
     <div class="row">
         <div class="col-12 text-center mt-2">
-            <button type="button" class="btn btn-primary btn-lg btn-prev"><?php echo __('Passo anterior', DEVAPPS_CERTIFICATE_GENERATOR_TEXT_DOMAIN);?></button>
-            <button type="button" class="btn btn-primary btn-lg btn-next course" disabled><?php echo __('Próximo passo', DEVAPPS_CERTIFICATE_GENERATOR_TEXT_DOMAIN);?></button>
+            <button type="button" class="btn btn-primary btn-lg btn-prev"><?php echo __('Passo anterior', 'devapps-certificate-generator');?></button>
+            <button type="button" class="btn btn-primary btn-lg btn-next course" disabled><?php echo __('Próximo passo', 'devapps-certificate-generator');?></button>
         </div>
     </div>
 </div>

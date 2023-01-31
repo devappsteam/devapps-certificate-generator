@@ -66,7 +66,7 @@ class Devapps_Certificate_Generator_Admin
 			return;
 		}
 
-		wp_enqueue_style("bootstrap", "https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css", array(), "4.6.2", 'all');
+		wp_enqueue_style("bootstrap", plugin_dir_url(__FILE__) . "css/bootstrap.css", array(), "4.6.2", 'all');
 		wp_enqueue_style($this->plugin_name, plugin_dir_url(__FILE__) . 'css/devapps-certificate-generator-admin.css', array('bootstrap'), $this->version, 'all');
 	}
 
@@ -81,7 +81,7 @@ class Devapps_Certificate_Generator_Admin
 			return;
 		}
 
-		wp_enqueue_script('bootstrap', "https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js", array('jquery'), "4.6.2", false);
+		wp_enqueue_script("bootstrap", plugin_dir_url(__FILE__) . "js/bootstrap-bundle.js", array(jquery), "4.6.2", false);
 		wp_enqueue_script($this->plugin_name, plugin_dir_url(__FILE__) . 'js/devapps-certificate-generator-admin.js', array('bootstrap'), time(), false);
 		wp_localize_script(
 			$this->plugin_name,
@@ -96,7 +96,7 @@ class Devapps_Certificate_Generator_Admin
 	public function create_menu_item()
 	{
 		add_menu_page(
-			__('Gerar Certificados', DEVAPPS_CERTIFICATE_GENERATOR_TEXT_DOMAIN),
+			__('Gerar Certificados', 'devapps-certificate-generator'),
 			'Gerar Certificados',
 			'manage_options',
 			$this->plugin_name,
@@ -123,9 +123,9 @@ class Devapps_Certificate_Generator_Admin
 			}
 		}
 
-		$data['person'] = $_POST['person'];
-		$data['course'] = $_POST['course'];
-		$data['preview'] = $_POST['preview'];
+		$data['person'] =addslashes($_POST['person']);
+		$data['course'] = addslashes($_POST['course']);
+		$data['preview'] =addslashes($_POST['preview']);
 
 		if ($path = $this->create_certificate_image($data)) {
 
