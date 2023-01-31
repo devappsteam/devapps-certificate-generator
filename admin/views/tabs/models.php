@@ -19,10 +19,10 @@
                     <div class="input-group mb-3">
                         <div class="custom-file">
                             <input type="file" class="custom-file-input" id="upload_model_file" name="upload_model_file" aria-describedby="upload_model" accept=".jpg">
-                            <label class="custom-file-label" for="upload_model_file" data-browse="Pesquisar"><?php echo __('Selecionar arquivo...', DEVAPPS_CERTIFICATE_GENERATOR_TEXT_DOMAIN);?></label>
+                            <label class="custom-file-label" for="upload_model_file" data-browse="Pesquisar"><?php echo __('Selecionar arquivo...', 'devapps-certificate-generator');?></label>
                         </div>
                     </div>
-                    <button type="submit" class="btn btn-secondary"><?php echo __('Carregar modelo', DEVAPPS_CERTIFICATE_GENERATOR_TEXT_DOMAIN); ?></button>
+                    <button type="submit" class="btn btn-secondary"><?php echo __('Carregar modelo', 'devapps-certificate-generator'); ?></button>
                 </form>
             </div>
         </div>
@@ -44,7 +44,7 @@
     </div>
     <div class="row">
         <div class="col-12 text-center mt-2">
-            <button type="button" class="btn btn-primary btn-lg btn-next models" disabled><?php echo __('Próximo passo', DEVAPPS_CERTIFICATE_GENERATOR_TEXT_DOMAIN);?></button>
+            <button type="button" class="btn btn-primary btn-lg btn-next models" disabled><?php echo __('Próximo passo', 'devapps-certificate-generator');?></button>
         </div>
     </div>
 </div>

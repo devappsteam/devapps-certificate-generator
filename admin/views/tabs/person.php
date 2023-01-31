@@ -47,10 +47,10 @@
     <div class="row">
         <div class="col-12 text-center mt-2">
             <button type="button" class="btn btn-primary btn-lg btn-prev">
-                <?php echo __('Passo anterior', DEVAPPS_CERTIFICATE_GENERATOR_TEXT_DOMAIN); ?>
+                <?php echo __('Passo anterior', 'devapps-certificate-generator'); ?>
             </button>
             <button type="button" class="btn btn-primary btn-lg btn-next person" disabled>
-                <?php echo __('Próximo passo', DEVAPPS_CERTIFICATE_GENERATOR_TEXT_DOMAIN); ?>
+                <?php echo __('Próximo passo', 'devapps-certificate-generator'); ?>
             </button>
         </div>
     </div>
