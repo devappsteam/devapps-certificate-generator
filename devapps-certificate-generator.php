@@ -21,7 +21,7 @@
  * Author URI:        https://devapps.com.br
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
- * Text Domain:       devapps-certificate-generator
+ * Text Domain:       gerador-de-certificados-devapps
  * Domain Path:       /languages
  */
 
@@ -47,11 +47,6 @@ define('DEVAPPS_CERTIFICATE_GENERATOR_ADMIN_VIEWS_PATH', plugin_dir_path(__FILE_
  * Public Path.
  */
 define('DEVAPPS_CERTIFICATE_GENERATOR_PUBLIC_VIEWS_PATH', plugin_dir_path(__FILE__) . 'public/views/');
-
-/**
- * Text Domain
- */
-define('DEVAPPS_CERTIFICATE_GENERATOR_TEXT_DOMAIN', 'devapps-certificate-generator');
 
 /**
  * URL by plugin
