@@ -38,8 +38,8 @@
 
     <div class="row">
         <div class="col-12 text-center mt-2">
-            <button type="button" class="btn btn-primary btn-lg btn-prev"><?php echo __('Passo anterior', 'devapps-certificate-generator');?></button>
-            <button type="button" class="btn btn-success btn-lg btn-generate"><?php echo __('Gerar Certificados', 'devapps-certificate-generator');?></button>
+            <button type="button" class="btn btn-primary btn-lg btn-prev"><?php echo __('Passo anterior', 'gerador-de-certificados-devapps');?></button>
+            <button type="button" class="btn btn-success btn-lg btn-generate"><?php echo __('Gerar Certificados', 'gerador-de-certificados-devapps');?></button>
         </div>
     </div>
 </div>
