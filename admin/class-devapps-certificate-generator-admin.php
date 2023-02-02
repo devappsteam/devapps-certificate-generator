@@ -123,9 +123,9 @@ class Devapps_Certificate_Generator_Admin
 			}
 		}
 
-		$data['person'] =addslashes($_POST['person']);
-		$data['course'] = addslashes($_POST['course']);
-		$data['preview'] =addslashes($_POST['preview']);
+		$data['person']     = sanitize_text_field($_POST['person']);
+		$data['course']     = sanitize_text_field($_POST['course']);
+		$data['preview']    = sanitize_text_field($_POST['preview']);
 
 		if ($path = $this->create_certificate_image($data)) {
 
