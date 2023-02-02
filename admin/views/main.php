@@ -15,22 +15,22 @@
             <ul class="nav nav-pills" role="tablist">
                 <li class="nav-item" role="presentation">
                     <button class="nav-link active" id="pills-model-tab" data-toggle="pill" data-target="#pills-models" type="button" role="tab" aria-controls="pills-models" aria-selected="true">
-                        <?php echo sprintf(__("%s - Modelo de Certificado", 'devapps-certificate-generator'), "1º"); ?>
+                        <?php echo sprintf(__("%s - Modelo de Certificado", 'gerador-de-certificados-devapps'), "1º"); ?>
                     </button>
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="pills-person-tab" data-toggle="pill" data-target="#pills-person" type="button" role="tab" aria-controls="pills-person" aria-selected="false" disabled>
-                        <?php echo sprintf(__("%s - Dados dos Participantes", 'devapps-certificate-generator'), "2º"); ?>
+                        <?php echo sprintf(__("%s - Dados dos Participantes", 'gerador-de-certificados-devapps'), "2º"); ?>
                     </button>
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="pills-course-tab" data-toggle="pill" data-target="#pills-course" type="button" role="tab" aria-controls="pills-curse" aria-selected="false" disabled>
-                        <?php echo sprintf(__("%s - Dados do Curso", 'devapps-certificate-generator'), "3º"); ?>
+                        <?php echo sprintf(__("%s - Dados do Curso", 'gerador-de-certificados-devapps'), "3º"); ?>
                     </button>
                 </li>
                 <li class="nav-item" role="presentation">
                     <button class="nav-link" id="pills-generate-tab" data-toggle="pill" data-target="#pills-generate" type="button" role="tab" aria-controls="pills-generate" aria-selected="false" disabled>
-                        <?php echo sprintf(__("%s - Gerar os Certificados", 'devapps-certificate-generator'), "4º"); ?>
+                        <?php echo sprintf(__("%s - Gerar os Certificados", 'gerador-de-certificados-devapps'), "4º"); ?>
                     </button>
                 </li>
             </ul>
