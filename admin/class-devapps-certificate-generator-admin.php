@@ -96,7 +96,7 @@ class Devapps_Certificate_Generator_Admin
 	public function create_menu_item()
 	{
 		add_menu_page(
-			__('Gerar Certificados', 'devapps-certificate-generator'),
+			__('Gerar Certificados', 'gerador-de-certificados-devapps'),
 			'Gerar Certificados',
 			'manage_options',
 			$this->plugin_name,
