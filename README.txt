@@ -48,3 +48,6 @@ Depois de instalar e ativar o plugin, funciona em 4 passos
 = 1.0.1 =
 * Correção do README.txt
 * Correção nos downloads
+
+= 1.0.2 =
+* Atualização do dominio de texto
