@@ -35,7 +35,7 @@ class Devapps_Certificate_Generator_i18n {
 	public function load_plugin_textdomain() {
 
 		load_plugin_textdomain(
-			'devapps-certificate-generator',
+			'gerador-de-certificados-devapps',
 			false,
 			dirname( dirname( plugin_basename( __FILE__ ) ) ) . '/languages/'
 		);
