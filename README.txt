@@ -3,7 +3,7 @@ Contributors: DevApps Consultoria e Desenvolvimento de Sistemas
 Tags: Certificado, Cursos online, Certificado para cursos, Certificado para eventos, certifica, certificação, diploma, evento online, palestra, palestrante
 Requires at least: 5.0
 Tested up to: 6.1
-Stable tag: 4.3.1
+Stable tag: 1.0.2
 Requires PHP: 7.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
